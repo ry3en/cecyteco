@@ -1,3 +1,5 @@
+
+
 # frozen_string_literal: true
 
 # Use this hook to configure devise mailer, warden hooks and so forth.
@@ -9,7 +11,7 @@ Devise.setup do |config|
   # Devise will use the `secret_key_base` as its `secret_key`
   # by default. You can change it below and use your own secret key.
   # config.secret_key = '20c390f1326937e3d289a4a485444d8b563a52f9ad8fd2b21673174da16d7e324dcc86d9f78bb2ce4e4e3b6f8733e0ca93783e7c3d3b2f4108025af33775b23f'
-  
+
   # ==> Controller configuration
   # Configure the parent class to the devise controllers.
   # config.parent_controller = 'DeviseController'
@@ -256,7 +258,7 @@ Devise.setup do |config|
   # ==> OmniAuth
   # Add a new OmniAuth provider. Check the wiki for more information on setting
   # up on your models and hooks.
-  # config.omniauth :github, 'APP_ID', 'APP_SECRET', scope: 'user,public_repo'
+  config.omniauth :facebook, '488485691546403', 'df6f303d6b47dab80a426f8fea6ec1dd'
 
   # ==> Warden configuration
   # If you want to use other strategies, that are not supported by Devise, or

@@ -31,6 +31,7 @@ gem 'jbuilder', '~> 2.5'
 # gem 'bcrypt', '~> 3.1.7'
 gem 'haml-rails'
 gem 'devise'
+gem 'omniauth-facebook'
 
 
 # Use Capistrano for deployment
@@ -42,6 +43,9 @@ group :development, :test do
   # Adds support for Capybara system testing and selenium driver
   gem 'capybara', '~> 2.13'
   gem 'selenium-webdriver'
+  gem 'rspec-rails', '~> 3.7'
+  gem 'shoulda-matchers', '~> 3.1'
+  gem 'factory_bot_rails'
 end
 
 group :development do
