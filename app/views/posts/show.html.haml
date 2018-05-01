@@ -5,7 +5,7 @@
   = @post.body
 %p
   %b User:
-  = @post.user
+  = @post.user.username
 
 = link_to 'Edit', edit_post_path(@post)
 \|
