@@ -13,3 +13,25 @@
  *= require_tree .
  *= require_self
  */
+
+  body{
+  background: url('images/cec.jpg');
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  background-attachment: fixed;
+  }
+
+ .columnas {
+    background: #452745;
+    color: #fff;
+  }
+
+  .numero {
+    border:1px solid #ccc;
+    text-align: center;
+    padding: 20px;
+    font-size: 20px;
+  }
+  .login {
+  }
