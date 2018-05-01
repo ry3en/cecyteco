@@ -1,8 +1,6 @@
 Rails.application.routes.draw do
 
-  devise_for :users, controllers:{
-    omniauth_callbacks: "users/omniauth_callbacks"
-  }
+  devise_for :users
 
 resources :articles;
 
@@ -11,6 +9,6 @@ resources :articles;
   end
 
   unauthenticated :user do
-    get 'devise/sessions/new' => 'devise/sessions#new'
+    root 'main#unregistered'
   end
 end

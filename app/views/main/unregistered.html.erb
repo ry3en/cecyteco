@@ -1,0 +1,35 @@
+<div class="container">
+  <div class="jumbotron center-block">
+    <center>
+      <form class="new_user" id="new_user" action="/users/sign_in" accept-charset="UTF-8" method="post"><input name="utf8" type="hidden" value="&#x2713;" /><input type="hidden" name="authenticity_token" value="niZnryJfTY5FGE5nWM0sIbxuxq66ntiZD7yunt3QlqUNUiN7GQRr0G7jhXGOHvmmDZU44CK6g/Nv5TjHAF5nDA==" />
+
+        <div class="form-group">
+          <h1>Iniciar Sesión</h1>
+        </div>
+
+        <div class="form-group field">
+          <label for="user_email">Correo:</label><br />
+          <input autofocus="autofocus" autocomplete="email" type="email" value="" name="user[email]" id="user_email" />
+        </div>
+
+        <div class="form-group field">
+          <label for="user_password">Contraseña:</label><br />
+          <input autocomplete="off" type="password" name="user[password]" id="user_password" />
+        </div>
+
+        <div class="form-group field">
+          <input name="user[remember_me]" type="hidden" value="0" /><input type="checkbox" value="1" name="user[remember_me]" id="user_remember_me" />
+          <label for="user_remember_me">Recuerdame</label>
+        </div>
+
+        <div class=" form-group actions">
+          <input class="btn btn-success" type="submit" name="commit" value="Entrar" data-disable-with="Log in" />
+        </div>
+
+      </form>
+      <a href="/users/sign_up">Registrarse</a><br /> <br>
+      <a href="/users/password/new">¿Olvidaste tu contraseña?</a><br />
+    </center>
+  </div>
+
+</div>
