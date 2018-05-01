@@ -32,6 +32,7 @@ gem 'jbuilder', '~> 2.5'
 gem 'haml-rails'
 gem 'devise'
 gem 'omniauth-facebook'
+gem 'annotate'
 
 
 # Use Capistrano for deployment
