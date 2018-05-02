@@ -32,6 +32,7 @@ class User < ApplicationRecord
 
   validates :username, presence: true,uniqueness: true,length: {in: 3..12}
   validate :validate_username_regex
+  
   has_many :posts
 
   private
