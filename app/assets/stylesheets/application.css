@@ -15,11 +15,8 @@
  */
 
   body{
-  background: url('images/cec.jpg');
-  background-repeat: no-repeat;
-  background-position: center;
-  background-size: cover;
-  background-attachment: fixed;
+    background-color: #ecf0f1;
+    padding-top: 70px;
   }
 
  .columnas {
@@ -33,5 +30,11 @@
     padding: 20px;
     font-size: 20px;
   }
-  .login {
+
+  .navlol{
+    background-color:  #21aba5;
+    color: #011f3f;
+  }
+  .nav-link:hover{
+  background-color:  #1d566e;
   }

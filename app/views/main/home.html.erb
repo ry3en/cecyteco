@@ -1,16 +1,49 @@
-<div class="jumbotron">
-  <center>
-    <h1>Bienvenido a la pagina</h1>
-    <a rel="nofollow" data-method="delete" href="/users/sign_out">Cerrar Sesion</a>
-  </center>
-  <ul>
-    <li>
-      <%= link_to "Exploraro","#" %>
-    </li>
-    <li>
-      <%= link_to "Sugerencias","#" %>
-    </li>
 
-  </ul>
-  <%=render "posts/form"%>
+
+
+<div class="container-fluid">
+
+
+  <div class="row">
+
+
+
+        <div class="panel numero col-md-3">
+
+            <div class="">
+              <p>Sangre</p>
+            </div>
+            <div class="">
+              <p>Sangre</p>
+            </div>
+            <div class="">
+              <p>Sangre</p>
+            </div>
+            <div class="">
+              <p>Sangre</p>
+            </div>
+
+        </div>
+
+
+
+        <div class="numero col-md-9">
+
+
+                <h3>Busca un donador</h3>
+
+                <form class="new_post" id="new_post" action="/posts" accept-charset="UTF-8" data-remote="true" method="post"><input name="utf8" type="hidden" value="&#x2713;" />
+
+                  <div class='form-group field'>
+                    <textarea placeholder="Busco sangre de tipo A+" class="form-control" name="post[body]" id="post_body"></textarea>
+                  </div>
+
+                  <div class='actions'>
+                    <input class="btn btn-primary" type="submit" name="commit" value="Publicar" data-disable-with="Save" />
+                  </div>
+
+        </div>
+
+    </div>
+
 </div>

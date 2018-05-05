@@ -1,0 +1,14 @@
+%h1 Editing post
+
+= render 'form'
+
+= link_to 'Show', @post
+\|
+= link_to 'Back', posts_path
+
+<h1>Editar Post</h1>
+
+<%=render "posts/form"%>
+
+<a href="<%= @post %>">Editar</a>
+<a href="/posts">Regresar</a>

@@ -1,0 +1,13 @@
+
+    <p>
+      <b>Usuario:</b>
+      <%= @post.user.username %>
+    </p>
+
+    <p>
+      <b>Mensaje:</b>
+      <%=@post.body%>
+    </p>
+
+    <a href="<%= edit_post_path(@post) %>">Editar</a>
+    <a href="/posts">Regresar</a>
